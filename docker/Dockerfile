@@ -3,7 +3,7 @@
 # license that can be found in the LICENSE file.
 
 # FYI: debian has connection issue
-FROM centos:centos7
+FROM centos:centos7@sha256:be65f488b7764ad3638f236b7b515b3678369a5124c47b8d32916d6487418ea4
 ENV LC_ALL=en_US.UTF-8                \
     RUNTIME_DEPENDENCIES="            \
         gcc                           \
